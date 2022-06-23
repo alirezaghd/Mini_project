@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteBase /Mini_project
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)$ index.php [QSA,L]
